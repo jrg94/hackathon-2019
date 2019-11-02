@@ -16,14 +16,14 @@ namespace TestWebsite_service
     {
         public String[] buildingConstructor()
         {
-            String[] buildings = new string[216];
-            int counter = 0;
             string line;
-            System.IO.StreamReader file = new System.IO.StreamReader("Hack.txt");
+            String[] buildings = new String[403];
+            int count = 0;
+            System.IO.StreamReader file = new StreamReader("C:\\Users\\calvi\\Documents\\TestWebsite-service\\TestWebsite-service\\Hack.txt");
             while ((line = file.ReadLine()) != null)
             {
-                buildings[counter] = line.Substring(1, line.Length);
-                counter++;
+                buildings[count] = line;
+                count++;
             }
             return buildings;
         }
