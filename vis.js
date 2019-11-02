@@ -1,6 +1,6 @@
 d3.csv("data/HackathonDataDaily.csv").then(plot)
 
-includedBuildings = ["Oxley Electric Meter"]
+includedBuildings = ["Oxley Electric Meter", "WATER TRTMNT ST HEAT FLO"]
 
 function plot(dataset){
 	
@@ -42,9 +42,6 @@ function plot(dataset){
 		.attr("width", w)
 		.attr("height", h)
 
-	
-	
-	
 	svg.append("g")
 		.selectAll("circle")
 		.data(dataset)
@@ -69,8 +66,11 @@ function plot(dataset){
 		.attr("dx", "1em")
 		.attr("dy", "-1em")
 		.attr("transform", "rotate(-90)")
-	
-	legend = svg.append("g")
+
+	var legend = d3.select("body")
+		.append("svg")
+		.attr("width", 400)
+		.attr("height", h)
 	
 	legend.selectAll("mydots")
 	  .data(includedBuildings)
