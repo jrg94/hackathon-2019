@@ -51,20 +51,15 @@ function plot(dataset){
 		.attr("cy", (d) => yScale(parseFloat(d.CurrentValue)))
 		.attr("r", 3)
 		.attr("fill", (d) => colorScale(d.BuildingID))
-		.on("mouseover", function (d) {
+		.on("mouseover", function (d, i) {
 			svg.append("text")
-				.attr("x", function() {
-					return xScale(new Date(d.Time));
-				})
-				.attr("y", function() {
-					return yScale(Number(d.CurrentValue)) + 20;
-				})
+				.attr("x", () => xScale(new Date(d.Time)))
+				.attr("y", () => yScale(Number(d.CurrentValue)) + 20)
 				.attr("fill", "black")
-				//.attr("id", "t" + d.EncounterID)
-				.text(function() {
-					return d.CurrentValue; // Value of the text
-				});
+				.attr("id", "t" + i)
+				.text(d.CurrentValue)
 		})
+		.on("mouseout", (d, i) => d3.select("#t" + i).remove())
 		
 	svg.append("g")
 		.attr("class", "x axis")
