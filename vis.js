@@ -72,13 +72,6 @@ function plot(dataset){
 	
 	legend = svg.append("g")
 	
-	
-	legend.append("rect")
-		.attr("fill", "white")
-		.attr("stroke", "black")
-		.attr("height", 15 + 25 * includedBuildings.length)
-		.attr("width", 100)//getMaxTextWidth(includedBuildings))
-	
 	legend.selectAll("mydots")
 	  .data(includedBuildings)
 	  .enter()
@@ -100,7 +93,13 @@ function plot(dataset){
 		.attr("text-anchor", "left")
 		.style("alignment-baseline", "middle")
 	
+	background = legend.append("rect")
+		.attr("fill", "white")
+		.attr("stroke", "black")
+		.attr("height", legend.node().getBBox().height + 20)
+		.attr("width", legend.node().getBBox().width + 20)
 		
+	background.lower();
 	
 }
 
