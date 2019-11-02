@@ -72,7 +72,6 @@ function plot(dataset){
 	
 	legend = svg.append("g")
 	
-	console.log(getMaxTextWidth(includedBuildings))
 	legend.append("rect")
 		.attr("fill", "white")
 		.attr("stroke", "black")
@@ -120,7 +119,6 @@ function plot(dataset){
 				textWidth.push(thisWidth)
 				this.remove() // remove them just after displaying them
 			})
-		console.log(textWidth)
 		return Math.max.apply(Math, textWidth)
 	}
 }
