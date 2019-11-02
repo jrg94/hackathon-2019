@@ -1,6 +1,6 @@
 d3.csv("data/HackathonDataDaily.csv").then(plot)
 
-filtering = (d) => d.BuildingID == "Oxley Electric Meter"
+includedBuildings = ["Oxley Electric Meter", "BRICKER BUILDING E01"]
 
 function plot(dataset){
 	
@@ -8,6 +8,9 @@ function plot(dataset){
 	//sort(dataset)
 	console.log(dataset)
 	//clean(dataset)
+	
+	dataset = isolateBuildings(dataset)
+	dataset = clean(dataset)
 	
 	console.log("Hello World!")
 	console.log(dataset)
@@ -41,11 +44,10 @@ function plot(dataset){
 		.data(dataset)
 		.enter()
 		.append("circle")
-		.filter(filtering)
-			.attr("cx", (d) => xScale(new Date(d.Time)))
-			.attr("cy", (d) => h - yScale(parseFloat(d.CurrentValue)))
-			.attr("r", 5)
-			.attr("fill", (d) => parseFloat(d.CurrentValue) > 0 ? "green" : "red")
+		.attr("cx", (d) => xScale(new Date(d.Time)))
+		.attr("cy", (d) => h - yScale(parseFloat(d.CurrentValue)))
+		.attr("r", 5)
+		.attr("fill", (d) => parseFloat(d.CurrentValue) > 0 ? "green" : "red")
 		
 	svg.append("g")
 		.attr("class", "x axis")
@@ -61,7 +63,7 @@ function plot(dataset){
 /**
  * Removes all buildings don't match BuildingID.
  */
-function isolateBuilding(dataset, name){
+/**function isolateBuilding(dataset, name){
 	for(var i = 0; i < dataset.length; i++){
 		var obj = dataset[i]
 		if(obj.BuildingID != name){
@@ -70,18 +72,21 @@ function isolateBuilding(dataset, name){
 		}
 	}
 }
+*/
+
+function isolateBuildings(dataset){
+	return dataset.filter((d) => 
+		includedBuildings.some((item) => 
+		item == d.BuildingID))
+}
+
 
 /**
  * Removes unwanted values from the data set.
  */
 function clean(dataset){
-	for(var i = 0; i < dataset.length; i++){
-		var obj = dataset[i]
-		if(parseFloat(obj.CurrentValue) < 0 || obj.Status != "OK" || obj.CurrentValue > 1e+8){
-			dataset.splice(i, 1)
-			i--
-		}
-	}
+	return dataset.filter((d) => Number(d.CurrentValue) >= 0 
+		&& d.Status == "OK")
 }
 
 /**
