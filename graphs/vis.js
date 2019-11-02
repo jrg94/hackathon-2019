@@ -74,7 +74,15 @@ function plot(dataset){
 		.attr("dy", "-1em")
 		.attr("transform", "rotate(-90)")
 
-
+	  // text label for the y axis
+	svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0)
+      .attr("x",0 - (h / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Energy (kWh)"); 
+	
 	// Legend
 
 	var legend = d3.select("body")
