@@ -51,6 +51,20 @@ function plot(dataset){
 		.attr("cy", (d) => yScale(parseFloat(d.CurrentValue)))
 		.attr("r", 3)
 		.attr("fill", (d) => colorScale(d.BuildingID))
+		.on("mouseover", function (d) {
+			svg.append("text")
+				.attr("x", function() {
+					return xScale(new Date(d.Time));
+				})
+				.attr("y", function() {
+					return yScale(Number(d.CurrentValue)) + 20;
+				})
+				.attr("fill", "black")
+				//.attr("id", "t" + d.EncounterID)
+				.text(function() {
+					return d.CurrentValue; // Value of the text
+				});
+		})
 		
 	svg.append("g")
 		.attr("class", "x axis")
@@ -74,7 +88,6 @@ function plot(dataset){
 		.attr("dy", "-1em")
 		.attr("transform", "rotate(-90)")
 
-	  // text label for the y axis
 	svg.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 0)
@@ -84,7 +97,6 @@ function plot(dataset){
       .text("Energy (kWh)"); 
 	
 	// Legend
-
 	var legend = d3.select("body")
 		.append("svg")
 		.attr("width", 400)
@@ -121,20 +133,6 @@ function plot(dataset){
 	background.lower();
 	
 }
-
-/**
- * Removes all buildings don't match BuildingID.
- */
-/**function isolateBuilding(dataset, name){
-	for(var i = 0; i < dataset.length; i++){
-		var obj = dataset[i]
-		if(obj.BuildingID != name){
-			dataset.splice(i, 1)
-			i--
-		}
-	}
-}
-*/
 
 function isolateBuildings(dataset){
 	return dataset.filter((d) => 
