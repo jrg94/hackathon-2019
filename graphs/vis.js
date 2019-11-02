@@ -4,16 +4,11 @@ includedBuildings = ["Oxley Electric Meter", "WATER TRTMNT ST HEAT FLO"]
 
 function plot(dataset){
 	
-	//isolateBuilding(dataset, "Oxley Electric Meter")
-	//sort(dataset)
 	console.log(dataset)
-	//clean(dataset)
 	
 	dataset = isolateBuildings(dataset)
 	dataset = clean(dataset)
 		
-	console.log("Hello World!")
-	console.log(dataset)
 	var w = 600
 	var h = 400
 	var padding = 40
@@ -137,15 +132,21 @@ function plot(dataset){
 	
 }
 
+/**
+ * Isolates buildings from a data set based on included buildings.
+ * 
+ * @param {Array} dataset the dataset
+ */
 function isolateBuildings(dataset){
 	return dataset.filter((d) => 
 		includedBuildings.some((item) => 
 		item == d.BuildingID))
 }
 
-
 /**
  * Removes unwanted values from the data set.
+ * 
+ * @param {Array} dataset the dataset
  */
 function clean(dataset){
 	return dataset.filter((d) => Number(d.CurrentValue) >= 0 
@@ -154,11 +155,9 @@ function clean(dataset){
 
 /**
  * Sorts dataset by CurrentValue.
+ * 
+ * @param {Array} dataset the dataset
  */
 function sortByCurrentValue(dataset){
 	dataset.sort((b, a) => Number(a.CurrentValue) - Number(b.CurrentValue))
 }
-
-
-
-
