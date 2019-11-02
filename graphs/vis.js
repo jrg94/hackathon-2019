@@ -53,11 +53,11 @@ function plot(dataset){
 		.attr("fill", (d) => colorScale(d.BuildingID))
 		.on("mouseover", function (d, i) {
 			svg.append("text")
-				.attr("x", () => xScale(new Date(d.Time)))
-				.attr("y", () => yScale(Number(d.CurrentValue)) + 20)
+				.attr("x", 20)
+				.attr("y", 20)
 				.attr("fill", "black")
 				.attr("id", "t" + i)
-				.text(d.CurrentValue)
+				.text(`Time: ${d.Time}, Current Value: ${d.CurrentValue}`)
 		})
 		.on("mouseout", (d, i) => d3.select("#t" + i).remove())
 		
