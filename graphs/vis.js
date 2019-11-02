@@ -57,6 +57,13 @@ function plot(dataset){
 		.attr("transform", "translate(0," + (h - padding) + ")")
 		.call(xAxis)
 		
+	svg.append("text")             
+		.attr("transform",
+			  "translate(" + (w/2) + " ," + 
+							 (h) + ")")
+		.style("text-anchor", "middle")
+		.text("Date");
+
 	svg.append("g")
 		.attr("class", "y axis")
 		.attr("transform", "translate(" + padding + ", 0)")
@@ -66,6 +73,9 @@ function plot(dataset){
 		.attr("dx", "1em")
 		.attr("dy", "-1em")
 		.attr("transform", "rotate(-90)")
+
+
+	// Legend
 
 	var legend = d3.select("body")
 		.append("svg")
