@@ -1,4 +1,4 @@
-d3.csv("data/HackathonDataDaily.csv").then(plot)
+d3.csv("../data/HackathonDataDaily.csv").then(plot)
 
 includedBuildings = ["Oxley Electric Meter", "WATER TRTMNT ST HEAT FLO"]
 
