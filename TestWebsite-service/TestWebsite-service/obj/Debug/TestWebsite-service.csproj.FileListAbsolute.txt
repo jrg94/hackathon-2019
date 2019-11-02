@@ -1,0 +1,26 @@
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll.config
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.pdb
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.csprojResolveAssemblyReference.cache
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.pdb
+D:\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll.config
+D:\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll
+D:\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.pdb
+D:\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.csprojResolveAssemblyReference.cache
+D:\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.dll
+D:\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.pdb
+D:\Documents - data drive\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll.config
+D:\Documents - data drive\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll
+D:\Documents - data drive\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.pdb
+D:\Documents - data drive\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.csprojAssemblyReference.cache
+D:\Documents - data drive\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.csproj.CoreCompileInputs.cache
+D:\Documents - data drive\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.dll
+D:\Documents - data drive\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.pdb
+C:\Users\calvi\Documents\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll.config
+C:\Users\calvi\Documents\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.dll
+C:\Users\calvi\Documents\TestWebsite-service\TestWebsite-service\bin\TestWebsite-service.pdb
+C:\Users\calvi\Documents\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.csproj.CoreCompileInputs.cache
+C:\Users\calvi\Documents\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.dll
+C:\Users\calvi\Documents\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.pdb
+C:\Users\calvi\Documents\TestWebsite-service\TestWebsite-service\obj\Debug\TestWebsite-service.csprojAssemblyReference.cache
