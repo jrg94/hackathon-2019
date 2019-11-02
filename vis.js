@@ -1,6 +1,6 @@
 d3.csv("data/HackathonDataDaily.csv").then(plot)
 
-includedBuildings = ["Oxley Electric Meter", "BRICKER BUILDING E01", "Kennedy Elec Consumption"]
+includedBuildings = ["Oxley Electric Meter"]
 
 function plot(dataset){
 	
@@ -72,12 +72,12 @@ function plot(dataset){
 	
 	legend = svg.append("g")
 	
-	
+	console.log(getMaxTextWidth(includedBuildings))
 	legend.append("rect")
 		.attr("fill", "white")
 		.attr("stroke", "black")
 		.attr("height", 15 + 25 * includedBuildings.length)
-		.attr("width", 100)//getMaxTextWidth(includedBuildings))
+		.attr("width", 60 + getMaxTextWidth(includedBuildings))
 	
 	legend.selectAll("mydots")
 	  .data(includedBuildings)
@@ -100,8 +100,29 @@ function plot(dataset){
 		.attr("text-anchor", "left")
 		.style("alignment-baseline", "middle")
 	
-		
-	
+
+	// Usage: textSize("This is a very long text"); 
+	// => Return: Object {width: 140, height: 15.453125}
+	function getMaxTextWidth(textArray) {
+		var textWidth = []
+
+		svg.append('g')
+			.selectAll('.dummyText')
+			.data(textArray)
+			.enter()
+			.append("text")
+			.attr("font-family", "sans-serif")
+			.attr("font-size", "14px")
+			//.attr("opacity", 0.0)      // not really necessary
+			.text(function(d) { return d})
+			.each(function(d,i) {
+				var thisWidth = this.getComputedTextLength()
+				textWidth.push(thisWidth)
+				this.remove() // remove them just after displaying them
+			})
+		console.log(textWidth)
+		return Math.max.apply(Math, textWidth)
+	}
 }
 
 /**
@@ -142,27 +163,4 @@ function sortByCurrentValue(dataset){
 
 
 
-/*function getMaxTextWidth(textArray){
-	var max = [0, 0]
-	for(var i = 0; i < textArray.length; i++){
-		var size = textSize(textArray[i])
-		if(size["width"] > max["width"]){
-			max = size
-		}
-	}
-	return max[0]
-}
 
-// Usage: textSize("This is a very long text"); 
-// => Return: Object {width: 140, height: 15.453125}
-function textSize(text) {
-    var container = d3.select('body').append('svg');
-    container.append('text').attr({ x: -99999, y: -99999 }).text(text);
-    var size = container.node().getBBox();
-    container.remove();
-    return { width: size.width, height: size.height };
-}
-
-
-
-*/
