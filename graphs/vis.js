@@ -58,8 +58,14 @@ function plot(dataset){
 				.attr("fill", "black")
 				.attr("id", "t" + i)
 				.text(`Time: ${d.Time}, Current Value: ${d.CurrentValue}`)
+			d3.select(this)
+				.attr("stroke", "black")
 		})
-		.on("mouseout", (d, i) => d3.select("#t" + i).remove())
+		.on("mouseout", function (d, i) {
+			d3.select("#t" + i).remove()
+			d3.select(this)
+				.attr("stroke", "none")
+		})
 		
 	svg.append("g")
 		.attr("class", "x axis")
