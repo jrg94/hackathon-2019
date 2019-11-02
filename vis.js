@@ -72,12 +72,6 @@ function plot(dataset){
 	
 	legend = svg.append("g")
 	
-	legend.append("rect")
-		.attr("fill", "white")
-		.attr("stroke", "black")
-		.attr("height", 15 + 25 * includedBuildings.length)
-		.attr("width", 60 + getMaxTextWidth(includedBuildings))
-	
 	legend.selectAll("mydots")
 	  .data(includedBuildings)
 	  .enter()
@@ -100,27 +94,14 @@ function plot(dataset){
 		.style("alignment-baseline", "middle")
 	
 
-	// Usage: textSize("This is a very long text"); 
-	// => Return: Object {width: 140, height: 15.453125}
-	function getMaxTextWidth(textArray) {
-		var textWidth = []
-
-		svg.append('g')
-			.selectAll('.dummyText')
-			.data(textArray)
-			.enter()
-			.append("text")
-			.attr("font-family", "sans-serif")
-			.attr("font-size", "14px")
-			//.attr("opacity", 0.0)      // not really necessary
-			.text(function(d) { return d})
-			.each(function(d,i) {
-				var thisWidth = this.getComputedTextLength()
-				textWidth.push(thisWidth)
-				this.remove() // remove them just after displaying them
-			})
-		return Math.max.apply(Math, textWidth)
-	}
+	background = legend.append("rect")
+		.attr("fill", "white")
+		.attr("stroke", "black")
+		.attr("height", legend.node().getBBox().height + 20)
+		.attr("width", legend.node().getBBox().width + 20)
+		
+	background.lower();
+	
 }
 
 /**
