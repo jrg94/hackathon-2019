@@ -1,6 +1,6 @@
 d3.csv("data/HackathonDataDaily.csv").then(plot)
 
-includedBuildings = ["Oxley Electric Meter", "BRICKER BUILDING E01"]
+includedBuildings = ["Oxley Electric Meter", "BRICKER BUILDING E01", "Kennedy Elec Consumption"]
 
 function plot(dataset){
 	
@@ -11,7 +11,7 @@ function plot(dataset){
 	
 	dataset = isolateBuildings(dataset)
 	dataset = clean(dataset)
-	
+		
 	console.log("Hello World!")
 	console.log(dataset)
 	var w = 600
@@ -21,20 +21,22 @@ function plot(dataset){
 	console.log(d3.extent(dataset, (d) => new Date(d.Time)))
 	console.log(d3.extent(dataset, (d) => parseFloat(d.CurrentValue)))
 	
+	// Scales
 	var xScale = d3.scaleTime()
 		.domain(d3.extent(dataset, (d) => new Date(d.Time)))
 		.range([padding, w - padding * 2])
 	
 	var yScale = d3.scaleLinear()
-		.domain(d3.extent(dataset, (d) => parseFloat(d.CurrentValue)))
+		.domain([0, d3.max(dataset, (d) => parseFloat(d.CurrentValue))])
 		.range([h - padding, padding])
 		
-	var colorScale = d3.scaleOrdinal(d3.interpolateInferno)
+	var colorScale = d3.scaleOrdinal(d3.schemeAccent).domain(includedBuildings)
 	
+	// Axes
 	var xAxis = d3.axisBottom(xScale).ticks(10)
-	
 	var yAxis = d3.axisLeft(yScale).ticks(5)
 	
+	// Draw
 	var svg = d3.select("body")
 		.append("svg")
 		.attr("width", w)
@@ -45,9 +47,9 @@ function plot(dataset){
 		.enter()
 		.append("circle")
 		.attr("cx", (d) => xScale(new Date(d.Time)))
-		.attr("cy", (d) => h - yScale(parseFloat(d.CurrentValue)))
-		.attr("r", 5)
-		.attr("fill", (d) => parseFloat(d.CurrentValue) > 0 ? "green" : "red")
+		.attr("cy", (d) => yScale(parseFloat(d.CurrentValue)))
+		.attr("r", 3)
+		.attr("fill", (d) => colorScale(d.BuildingID))
 		
 	svg.append("g")
 		.attr("class", "x axis")
@@ -95,7 +97,6 @@ function clean(dataset){
 function sortByCurrentValue(dataset){
 	dataset.sort((b, a) => Number(a.CurrentValue) - Number(b.CurrentValue))
 }
-
 
 
 
