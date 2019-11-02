@@ -1,9 +1,11 @@
 d3.csv("data/HackathonDataDaily.csv").then(plot)
 
+filtering = (d) => d.BuildingID == "Oxley Electric Meter"
+
 function plot(dataset){
 	
-	isolateBuilding(dataset, "Oxley Electric Meter")
-	sort(dataset)
+	//isolateBuilding(dataset, "Oxley Electric Meter")
+	//sort(dataset)
 	console.log(dataset)
 	//clean(dataset)
 	
@@ -39,10 +41,11 @@ function plot(dataset){
 		.data(dataset)
 		.enter()
 		.append("circle")
-		.attr("cx", (d) => xScale(new Date(d.Time)))
-		.attr("cy", (d) => h - yScale(parseFloat(d.CurrentValue)))
-		.attr("r", 5)
-		.attr("fill", (d) => parseFloat(d.CurrentValue) > 0 ? "green" : "red")
+		.filter(filtering)
+			.attr("cx", (d) => xScale(new Date(d.Time)))
+			.attr("cy", (d) => h - yScale(parseFloat(d.CurrentValue)))
+			.attr("r", 5)
+			.attr("fill", (d) => parseFloat(d.CurrentValue) > 0 ? "green" : "red")
 		
 	svg.append("g")
 		.attr("class", "x axis")
@@ -55,6 +58,9 @@ function plot(dataset){
 		.call(yAxis)
 }
 
+/**
+ * Removes all buildings don't match BuildingID.
+ */
 function isolateBuilding(dataset, name){
 	for(var i = 0; i < dataset.length; i++){
 		var obj = dataset[i]
@@ -65,6 +71,9 @@ function isolateBuilding(dataset, name){
 	}
 }
 
+/**
+ * Removes unwanted values from the data set.
+ */
 function clean(dataset){
 	for(var i = 0; i < dataset.length; i++){
 		var obj = dataset[i]
@@ -75,10 +84,11 @@ function clean(dataset){
 	}
 }
 
-function sort(dataset){
+/**
+ * Sorts dataset by CurrentValue.
+ */
+function sortByCurrentValue(dataset){
 	dataset.sort((b, a) => Number(a.CurrentValue) - Number(b.CurrentValue))
-	
-	
 }
 
 
