@@ -14,19 +14,38 @@ namespace TestWebsite_service
     // NOTE: In order to launch WCF Test Client for testing this service, please select BuildingSearch.svc or BuildingSearch.svc.cs at the Solution Explorer and start debugging.
     public class BuildingSearch : IBuildingSearch
     {
-        public String[] buildingConstructor()
+		String[] buildings;
+        public void buildingConstructor()
         {
             string line;
-            String[] buildings = new String[403];
+            buildings = new String[403];
             int count = 0;
             System.IO.StreamReader file = new StreamReader("C:\\Users\\calvi\\Documents\\TestWebsite-service\\TestWebsite-service\\Hack.txt");
             while ((line = file.ReadLine()) != null)
             {
-                buildings[count] = line;
+                buildings[count] = line.ToUpper();
                 count++;
             }
             return buildings;
         }
+		
+		public static String[] getBuildings(String userInput)
+		{
+			if(buildings == null) buildingConstructor();
+			userInput = userInput.ToUpper();
+			
+			ArrayList<String> comparedBuildings = new ArrayList<>();
+			
+			for(int i = 0; i < buildings.length; i++){
+				String buildingName = buildings[i];
+				if(buildingsName.Substring(0, userInput.length().equals(userInput))){
+					comparedBuildings.Add(buildingName);
+				}
+			}
+			
+			return comparedBuildings.ToArray();
+		}
+		
     }
 }
 
