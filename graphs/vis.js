@@ -60,11 +60,13 @@ function plot(dataset){
 				.text(`Time: ${d.Time}, Current Value: ${d.CurrentValue}`)
 			d3.select(this)
 				.attr("stroke", "black")
+				.attr("r", 7)
 		})
 		.on("mouseout", function (d, i) {
 			d3.select("#t" + i).remove()
 			d3.select(this)
 				.attr("stroke", "none")
+				.attr("r", 3)
 		})
 		
 	svg.append("g")
