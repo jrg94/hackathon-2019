@@ -1,6 +1,6 @@
 d3.csv("data/HackathonDataDaily.csv").then(plot)
 
-includedBuildings = ["Oxley Electric Meter", "BRICKER BUILDING E01", "Kennedy Elec Consumption"]
+includedBuildings = ["Oxley Electric Meter"]
 
 function plot(dataset){
 	
@@ -141,27 +141,4 @@ function sortByCurrentValue(dataset){
 
 
 
-/*function getMaxTextWidth(textArray){
-	var max = [0, 0]
-	for(var i = 0; i < textArray.length; i++){
-		var size = textSize(textArray[i])
-		if(size["width"] > max["width"]){
-			max = size
-		}
-	}
-	return max[0]
-}
 
-// Usage: textSize("This is a very long text"); 
-// => Return: Object {width: 140, height: 15.453125}
-function textSize(text) {
-    var container = d3.select('body').append('svg');
-    container.append('text').attr({ x: -99999, y: -99999 }).text(text);
-    var size = container.node().getBBox();
-    container.remove();
-    return { width: size.width, height: size.height };
-}
-
-
-
-*/
