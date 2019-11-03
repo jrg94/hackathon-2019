@@ -140,7 +140,7 @@ function plotLine(datasets){
 		.attr("x", 40)
 		.attr("y", function(d,i){ return 20 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
 		.style("fill", function(d){ return colorScale(d)})
-		.text(function(d){ return d})
+		.text((d) => config.filter((row) => row.BuildingID == d)[0].BuildingName)
 		.attr("text-anchor", "left")
 		.style("alignment-baseline", "middle")
 	
