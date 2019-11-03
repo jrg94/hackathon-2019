@@ -1,0 +1,270 @@
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\csc.exe
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\System.Collections.Immutable.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\vbc.exe
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe.config
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll.config
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\TestWeb-client.pdb
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.bootstrap.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.jQuery.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\EntityFramework.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.MSAjax.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.WebForms.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Web.Infrastructure.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Owin.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\System.Web.Providers.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\WebGrease.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.pdb
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\EntityFramework.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\System.Web.Providers.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csprojResolveAssemblyReference.cache
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.dll
+c:\users\stealth entry intern\documents\visual studio 2015\Projects\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.pdb
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\csc.exe
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\System.Collections.Immutable.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\System.Reflection.Metadata.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\vbc.exe
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe.config
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll.config
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\TestWeb-client.pdb
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.jQuery.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\EntityFramework.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Web.Infrastructure.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Owin.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\System.Web.Providers.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\WebGrease.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.pdb
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\EntityFramework.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\System.Web.Providers.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Documents - data drive\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csprojAssemblyReference.cache
+D:\Documents - data drive\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csproj.CoreCompileInputs.cache
+D:\Documents - data drive\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csproj.CopyComplete
+D:\Documents - data drive\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.dll
+D:\Documents - data drive\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.pdb
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\csc.exe
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\vbc.exe
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll.config
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\TestWeb-client.pdb
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\EntityFramework.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Owin.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\System.Web.Providers.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\WebGrease.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.pdb
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\EntityFramework.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\System.Web.Providers.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csproj.CoreCompileInputs.cache
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csproj.CopyComplete
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.dll
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.pdb
+C:\Users\calvi\Documents\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csprojAssemblyReference.cache
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\csc.exe
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\vbc.exe
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\EntityFramework.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Owin.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\System.Web.Providers.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\WebGrease.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\System.Web.Optimization.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Antlr3.Runtime.pdb
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Newtonsoft.Json.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\EntityFramework.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\EntityFramework.SqlServer.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\System.Web.Providers.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csprojAssemblyReference.cache
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csproj.CoreCompileInputs.cache
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csproj.CopyComplete
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.pdb
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll.config
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\TestWeb-client.pdb
