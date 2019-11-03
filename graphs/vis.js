@@ -26,10 +26,9 @@ function numberOfValues(data, key, value) {
 	return data.filter((d) => d[key] == value).length
 }
 
-function sortByMostCommonLocationType(locationTypes) {
+function sortByMostCommonLocationType(locationTypes, config) {
 	return locationTypes.sort(
-		(a, b) => numberOfValues(datasets["Config"], "LocationType", a)
-		> numberOfValues(datasets["Config"], "LocationType", b)
+		(a, b) => numberOfValues(config, "LocationType", b) - numberOfValues(config, "LocationType", a)
 	)
 }
 
@@ -38,17 +37,28 @@ function plotBar(datasets) {
 	var h = 400
 	var padding = 40
 
+	const data = datasets["Data"]
+	const config = datasets["Config"]
+
 	const locationTypes = sortByMostCommonLocationType([
-		...new Set(datasets["Config"]
+		...new Set(config
 			.map((d) => d.LocationType)
 			.filter(Boolean))
-	]).slice(0, 5)
+	], config).slice(0, 5)
+
+	// TODO: compute average of each locationType from data using meterID
+	records = locationTypes.map((loc) => config.filter((d) => d.LocationType == loc))
 
 	console.log(locationTypes)
+	console.log(records)
 
 	var xScale = d3.scalePoint()
 		.domain(locationTypes)
 		.range([padding, w - padding * 2])
+
+	var yScale = d3.scaleLinear()
+		.domain([0, d3.max(data, (d) => parseFloat(d.CurrentValue))])
+		.range([h - padding, padding])
 
 	var xAxis = d3.axisBottom(xScale)
 	
