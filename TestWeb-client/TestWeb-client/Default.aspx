@@ -23,13 +23,12 @@
                 <div class="card-body">
                   <div class="chart-area">
                     <svg id="vis"></svg>
+                      <svg id="bar"></svg>
                     <svg id="Legend"></svg>
                   </div>
                 </div>
               </div>
-            </div>
-         </div>
-       </div>
+
 
 
 
