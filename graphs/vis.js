@@ -22,15 +22,31 @@ function loadBuildings(config) {
 	includedBuildings = config.slice(10, 15).map((d) => d.BuildingID)
 }
 
+function numberOfValues(data, key, value) {
+	return data.filter((d) => d[key] == value).length
+}
+
+function sortByMostCommonLocationType(locationTypes) {
+	return locationTypes.sort(
+		(a, b) => numberOfValues(datasets["Config"], "LocationType", a)
+		> numberOfValues(datasets["Config"], "LocationType", b)
+	)
+}
+
 function plotBar(datasets) {
 	var w = 600
 	var h = 400
 	var padding = 40
 
-	const locationTypes = [...new Set(datasets["Config"].map((d) => d.LocationType).filter(Boolean))]
+	const locationTypes = sortByMostCommonLocationType([
+		...new Set(datasets["Config"]
+			.map((d) => d.LocationType)
+			.filter(Boolean))
+	]).slice(0, 5)
+
 	console.log(locationTypes)
 
-	var xScale = d3.scaleOrdinal()
+	var xScale = d3.scalePoint()
 		.domain(locationTypes)
 		.range([padding, w - padding * 2])
 
