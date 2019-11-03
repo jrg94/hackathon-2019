@@ -14,11 +14,22 @@ function loadThenPlot(dataset) {
 	}
 	if (Object.keys(datasets).length == files.length) {
 		plotLine(datasets)
+		plotBar(datasets)
 	}
 }
 
 function loadBuildings(config) {
 	includedBuildings = config.slice(10, 15).map((d) => d.BuildingID)
+}
+
+function plotBar(datasets) {
+	var w = 600
+	var h = 400
+	var padding = 40
+
+	var xScale = d3.scaleOrdinal()
+		.domain([...new Set(datasets["Config"].map((d) => d.LocationType))])
+		.range([padding, w - padding * 2])
 }
 
 function plotLine(datasets){
