@@ -19,15 +19,12 @@
 
                 
                 </div>
-                <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-area">
+                    
                     <svg id="vis"></svg>
-                      <svg id="bar"></svg>
+                      <svg id="bar"><text x="150" y="20" font-family="sans-serif" font-size="15px">Gross Square Footage of Location Types</text></svg>
                     <svg id="Legend"></svg>
                   </div>
-                </div>
-              </div>
+
 
 
 

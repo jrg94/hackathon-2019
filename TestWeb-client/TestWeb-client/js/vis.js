@@ -216,7 +216,14 @@ function plotLine(datasets){
       .attr("x",0 - (h / 2))
       .attr("dy", "1em")
       .style("text-anchor", "middle")
-      .text("Energy (kWh)"); 
+        .text("Energy (kWh)"); 
+
+    svg.append("text")
+        .attr("class", "title")
+        .attr("x", w / 2)
+        .attr("y", 0 - (h / 2))
+        .style("text-anchor", "middle")
+        .text("Energy Consumption from 2017 to Present");
 	
 	// Legend
 	var legend = d3.select("#Legend")
