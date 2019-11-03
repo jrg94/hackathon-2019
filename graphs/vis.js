@@ -14,11 +14,92 @@ function loadThenPlot(dataset) {
 	}
 	if (Object.keys(datasets).length == files.length) {
 		plotLine(datasets)
+		plotBar(datasets)
 	}
 }
 
 function loadBuildings(config) {
 	includedBuildings = config.slice(10, 15).map((d) => d.BuildingID)
+}
+
+function numberOfValues(data, key, value) {
+	return data.filter((d) => d[key] == value).length
+}
+
+function sortByMostCommonLocationType(locationTypes, config) {
+	return locationTypes.sort(
+		(a, b) => numberOfValues(config, "LocationType", b) - numberOfValues(config, "LocationType", a)
+	)
+}
+
+function plotBar(datasets) {
+	var w = 600
+	var h = 400
+	var padding = 40
+
+	const data = datasets["Data"]
+	const config = datasets["Config"]
+
+	const locationTypes = sortByMostCommonLocationType([
+		...new Set(config
+			.map((d) => d.LocationType)
+			.filter(Boolean))
+	], config).slice(0, 5)
+
+	squareFeet = locationTypes.map(
+		(loc) => config.filter(
+			(d) => d.LocationType == loc)
+				.reduce((a, b) => a + Number(b.GrossSquareFeet), 0))
+
+	console.log(squareFeet)
+
+	var xScale = d3.scaleBand()
+		.domain(locationTypes)
+		.rangeRound([padding, w - padding * 2])
+      	.padding(0.1)
+
+	var yScale = d3.scaleLinear()
+		.domain([0, d3.max(squareFeet)])
+		.range([h - padding, padding])
+
+	var xAxis = d3.axisBottom(xScale)
+
+	var yAxis = d3.axisLeft(yScale).ticks(5)
+	
+	var svg = d3.select("body")
+		.append("svg")
+		.attr("width", w)
+		.attr("height", h)
+
+	svg.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + (h - padding) + ")")
+		.call(xAxis)
+
+	svg.append("g")
+		.attr("class", "y axis")
+		.attr("transform", "translate(" + padding + ", 0)")
+		.call(yAxis)
+		.selectAll("text")
+		.style("text-anchor", "middle")
+		.attr("dx", "1em")
+		.attr("dy", "-1em")
+		.attr("transform", "rotate(-90)")
+
+	svg.selectAll(".bar")
+		.data(locationTypes)
+		.enter().append("rect")
+		.attr("class", "bar")
+		.attr("x", function (d,i) {
+			return xScale(d);
+		})
+		.attr("y", function (d, i) {
+			return yScale(Number(squareFeet[i]));
+		})
+		.attr("width", xScale.bandwidth())
+		.attr("height", function (d, i) {
+			return h - yScale(Number(squareFeet[i])) - padding;
+		});
 }
 
 function plotLine(datasets){
