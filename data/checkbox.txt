@@ -1,0 +1,354 @@
+<input type="checkbox" name="12TH AVE EAST ST HEAT FL" value="TRUE">12TH AVE EAST ST HEAT FL<br>
+<input type="checkbox" name="12TH AVE WEST HEAT FLOW" value="TRUE">12TH AVE WEST HEAT FLOW<br>
+<input type="checkbox" name="160 SAS consumption" value="TRUE">160 SAS consumption<br>
+<input type="checkbox" name="160 elec consumption" value="TRUE">160 elec consumption<br>
+<input type="checkbox" name="18TH AVE LIBRARY E01" value="TRUE">18TH AVE LIBRARY E01<br>
+<input type="checkbox" name="18TH AVE LIBRARY E02" value="TRUE">18TH AVE LIBRARY E02<br>
+<input type="checkbox" name="209 HW HEAT FLOW" value="TRUE">209 HW HEAT FLOW<br>
+<input type="checkbox" name="209 W 18 CW HEAT FLOW" value="TRUE">209 W 18 CW HEAT FLOW<br>
+<input type="checkbox" name="395 W 12th Ave E 2" value="TRUE">395 W 12th Ave E 2<br>
+<input type="checkbox" name="395 W 12th ave E 1" value="TRUE">395 W 12th ave E 1<br>
+<input type="checkbox" name="395 W.12TH STM HEAT FLOW" value="TRUE">395 W.12TH STM HEAT FLOW<br>
+<input type="checkbox" name="AG ADMIN ELEC 1" value="TRUE">AG ADMIN ELEC 1<br>
+<input type="checkbox" name="AG ADMIN STM HEAT FLOW" value="TRUE">AG ADMIN STM HEAT FLOW<br>
+<input type="checkbox" name="AG ENG ELEC 1" value="TRUE">AG ENG ELEC 1<br>
+<input type="checkbox" name="AG ENG ELEC 2" value="TRUE">AG ENG ELEC 2<br>
+<input type="checkbox" name="AG ENGIN STM HEAT FLOW" value="TRUE">AG ENGIN STM HEAT FLOW<br>
+<input type="checkbox" name="ARPS HALL E02" value="TRUE">ARPS HALL E02<br>
+<input type="checkbox" name="ARPS HW HEAT FLOW" value="TRUE">ARPS HW HEAT FLOW<br>
+<input type="checkbox" name="AU BON PAIN ELEC" value="TRUE">AU BON PAIN ELEC<br>
+<input type="checkbox" name="BAKER BMNT CW HEAT FLOW" value="TRUE">BAKER BMNT CW HEAT FLOW<br>
+<input type="checkbox" name="BAKER PENT CW HEAT FLOW" value="TRUE">BAKER PENT CW HEAT FLOW<br>
+<input type="checkbox" name="BAKER SYS STM HEAT FLOW" value="TRUE">BAKER SYS STM HEAT FLOW<br>
+<input type="checkbox" name="BIOSCI CW HEAT FLOW" value="TRUE">BIOSCI CW HEAT FLOW<br>
+<input type="checkbox" name="BIOSCI STM HEAT FLOW" value="TRUE">BIOSCI STM HEAT FLOW<br>
+<input type="checkbox" name="BLACKBURN CW HEAT FLOW" value="TRUE">BLACKBURN CW HEAT FLOW<br>
+<input type="checkbox" name="BLACKBURN ELEC CONS" value="TRUE">BLACKBURN ELEC CONS<br>
+<input type="checkbox" name="BLACKBURN HW HEAT FLOW" value="TRUE">BLACKBURN HW HEAT FLOW<br>
+<input type="checkbox" name="BLACKWELL CW HEAT FLOW" value="TRUE">BLACKWELL CW HEAT FLOW<br>
+<input type="checkbox" name="BLACKWELL ELEC CONS" value="TRUE">BLACKWELL ELEC CONS<br>
+<input type="checkbox" name="BLACKWELL STM HEAT FLOW" value="TRUE">BLACKWELL STM HEAT FLOW<br>
+<input type="checkbox" name="BOLZ CW HEAT FLOW" value="TRUE">BOLZ CW HEAT FLOW<br>
+<input type="checkbox" name="BOLZ HALL E01" value="TRUE">BOLZ HALL E01<br>
+<input type="checkbox" name="BOLZ HALL E02" value="TRUE">BOLZ HALL E02<br>
+<input type="checkbox" name="BOLZ STM HEAT FLOW" value="TRUE">BOLZ STM HEAT FLOW<br>
+<input type="checkbox" name="BOLZ/HITCH CW HEAT FLOW" value="TRUE">BOLZ/HITCH CW HEAT FLOW<br>
+<input type="checkbox" name="BOWEN CW HEAT FLOW" value="TRUE">BOWEN CW HEAT FLOW<br>
+<input type="checkbox" name="BOWEN ELEC CONS" value="TRUE">BOWEN ELEC CONS<br>
+<input type="checkbox" name="BRAIN & SPIN CW HEAT FLO" value="TRUE">BRAIN & SPIN CW HEAT FLO<br>
+<input type="checkbox" name="BRAIN / SPINE ST HEAT FL" value="TRUE">BRAIN / SPINE ST HEAT FL<br>
+<input type="checkbox" name="BRICKER BUILDING E01" value="TRUE">BRICKER BUILDING E01<br>
+<input type="checkbox" name="BRICKER CW HEAT FLOW" value="TRUE">BRICKER CW HEAT FLOW<br>
+<input type="checkbox" name="BRICKER ST HEAT FLOW" value="TRUE">BRICKER ST HEAT FLOW<br>
+<input type="checkbox" name="BRT Elec Meter 1 Consum" value="TRUE">BRT Elec Meter 1 Consum<br>
+<input type="checkbox" name="BRT Elec Meter 2 Consum" value="TRUE">BRT Elec Meter 2 Consum<br>
+<input type="checkbox" name="BRT Elec Meter 3 Consum" value="TRUE">BRT Elec Meter 3 Consum<br>
+<input type="checkbox" name="BRT Elec Meter 4 Consum" value="TRUE">BRT Elec Meter 4 Consum<br>
+<input type="checkbox" name="BRT STM HEAT FLOW" value="TRUE">BRT STM HEAT FLOW<br>
+<input type="checkbox" name="BUSCH CW HEAT FLOW" value="TRUE">BUSCH CW HEAT FLOW<br>
+<input type="checkbox" name="BUSCH ELEC CONS" value="TRUE">BUSCH ELEC CONS<br>
+<input type="checkbox" name="Baker Systems Consum E01" value="TRUE">Baker Systems Consum E01<br>
+<input type="checkbox" name="BioSciences Elec Meter 3" value="TRUE">BioSciences Elec Meter 3<br>
+<input type="checkbox" name="BioSciences Elec meter 1" value="TRUE">BioSciences Elec meter 1<br>
+<input type="checkbox" name="BioSciences Elec meter 2" value="TRUE">BioSciences Elec meter 2<br>
+<input type="checkbox" name="CALDWELL CW HEAT FLOW" value="TRUE">CALDWELL CW HEAT FLOW<br>
+<input type="checkbox" name="CALDWELL STM HEAT FLOW" value="TRUE">CALDWELL STM HEAT FLOW<br>
+<input type="checkbox" name="CAMPBELL CW HEAT FLOW" value="TRUE">CAMPBELL CW HEAT FLOW<br>
+<input type="checkbox" name="CAMPBELL HALL E01" value="TRUE">CAMPBELL HALL E01<br>
+<input type="checkbox" name="CAMPBELL HALL E02" value="TRUE">CAMPBELL HALL E02<br>
+<input type="checkbox" name="CAMPBELL STM HEAT FLOW" value="TRUE">CAMPBELL STM HEAT FLOW<br>
+<input type="checkbox" name="CBEC CW HEAT FLOW" value="TRUE">CBEC CW HEAT FLOW<br>
+<input type="checkbox" name="CBEC STM HEAT FLOW" value="TRUE">CBEC STM HEAT FLOW<br>
+<input type="checkbox" name="CBEC SWGR A METER LEFT" value="TRUE">CBEC SWGR A METER LEFT<br>
+<input type="checkbox" name="CBEC SWGR A METER RIGHT" value="TRUE">CBEC SWGR A METER RIGHT<br>
+<input type="checkbox" name="CBEC SWGR B METER LEFT" value="TRUE">CBEC SWGR B METER LEFT<br>
+<input type="checkbox" name="CBEC SWGR B METER RIGHT" value="TRUE">CBEC SWGR B METER RIGHT<br>
+<input type="checkbox" name="CCCT 1A" value="TRUE">CCCT 1A<br>
+<input type="checkbox" name="CCCT 1B" value="TRUE">CCCT 1B<br>
+<input type="checkbox" name="CCCT 2A" value="TRUE">CCCT 2A<br>
+<input type="checkbox" name="CCCT 2B" value="TRUE">CCCT 2B<br>
+<input type="checkbox" name="CCCT 3A" value="TRUE">CCCT 3A<br>
+<input type="checkbox" name="CCCT 3B" value="TRUE">CCCT 3B<br>
+<input type="checkbox" name="CCCT 4A" value="TRUE">CCCT 4A<br>
+<input type="checkbox" name="CCCT 4B" value="TRUE">CCCT 4B<br>
+<input type="checkbox" name="CCCT CW HEAT FLOW" value="TRUE">CCCT CW HEAT FLOW<br>
+<input type="checkbox" name="CCCT STM HEAT FLOW" value="TRUE">CCCT STM HEAT FLOW<br>
+<input type="checkbox" name="CELESTE CW HEAT FLOW" value="TRUE">CELESTE CW HEAT FLOW<br>
+<input type="checkbox" name="CELESTE LAB E01" value="TRUE">CELESTE LAB E01<br>
+<input type="checkbox" name="CELESTE LAB E02" value="TRUE">CELESTE LAB E02<br>
+<input type="checkbox" name="CELESTE LAB E03" value="TRUE">CELESTE LAB E03<br>
+<input type="checkbox" name="CELESTE LAB E04" value="TRUE">CELESTE LAB E04<br>
+<input type="checkbox" name="CELESTE ST HEAT FLOW" value="TRUE">CELESTE ST HEAT FLOW<br>
+<input type="checkbox" name="CENTRAL SERVICE BLDG E01" value="TRUE">CENTRAL SERVICE BLDG E01<br>
+<input type="checkbox" name="CNTRL SRVS HW HEAT FLOW" value="TRUE">CNTRL SRVS HW HEAT FLOW<br>
+<input type="checkbox" name="CUNZ CW HEAT FLOW" value="TRUE">CUNZ CW HEAT FLOW<br>
+<input type="checkbox" name="CUNZ ELEC CONS SB-1" value="TRUE">CUNZ ELEC CONS SB-1<br>
+<input type="checkbox" name="CUNZ ELEC CONS SB-2" value="TRUE">CUNZ ELEC CONS SB-2<br>
+<input type="checkbox" name="CUNZ HW HEAT FLOW" value="TRUE">CUNZ HW HEAT FLOW<br>
+<input type="checkbox" name="CUNZ ST HEAT FLOW" value="TRUE">CUNZ ST HEAT FLOW<br>
+<input type="checkbox" name="CURL CW HEAT FLOW" value="TRUE">CURL CW HEAT FLOW<br>
+<input type="checkbox" name="CURL HALL ELEC CONS" value="TRUE">CURL HALL ELEC CONS<br>
+<input type="checkbox" name="CURL HW HEAT FLOW" value="TRUE">CURL HW HEAT FLOW<br>
+<input type="checkbox" name="DENNEY HALL E01" value="TRUE">DENNEY HALL E01<br>
+<input type="checkbox" name="DENNEY HALL E02" value="TRUE">DENNEY HALL E02<br>
+<input type="checkbox" name="DENNEY HW HEAT FLOW" value="TRUE">DENNEY HW HEAT FLOW<br>
+<input type="checkbox" name="DERBY HALL E01" value="TRUE">DERBY HALL E01<br>
+<input type="checkbox" name="DERBY HALL E02" value="TRUE">DERBY HALL E02<br>
+<input type="checkbox" name="DERBY STM HEAT FLOW" value="TRUE">DERBY STM HEAT FLOW<br>
+<input type="checkbox" name="DOAN CW HEAT FLOW" value="TRUE">DOAN CW HEAT FLOW<br>
+<input type="checkbox" name="DRAKE STM HEAT FLOW" value="TRUE">DRAKE STM HEAT FLOW<br>
+<input type="checkbox" name="DRAKE UNION ELEC" value="TRUE">DRAKE UNION ELEC<br>
+<input type="checkbox" name="DREESE CW HEAT FLOW" value="TRUE">DREESE CW HEAT FLOW<br>
+<input type="checkbox" name="DREESE ELECTRIC" value="TRUE">DREESE ELECTRIC<br>
+<input type="checkbox" name="DREESE STM HEAT FLOW" value="TRUE">DREESE STM HEAT FLOW<br>
+<input type="checkbox" name="DRINKO HALL E01" value="TRUE">DRINKO HALL E01<br>
+<input type="checkbox" name="DRINKO HALL E02" value="TRUE">DRINKO HALL E02<br>
+<input type="checkbox" name="DRINKO HALL E04" value="TRUE">DRINKO HALL E04<br>
+<input type="checkbox" name="DRINKO STM HEAT FLOW" value="TRUE">DRINKO STM HEAT FLOW<br>
+<input type="checkbox" name="DULLES CW HEAT FLOW" value="TRUE">DULLES CW HEAT FLOW<br>
+<input type="checkbox" name="DULLES HALL E01" value="TRUE">DULLES HALL E01<br>
+<input type="checkbox" name="Dreese Elec 3Consumption" value="TRUE">Dreese Elec 3Consumption<br>
+<input type="checkbox" name="Dreese Elec 4Consumption" value="TRUE">Dreese Elec 4Consumption<br>
+<input type="checkbox" name="Dreese lab E2 consumptio" value="TRUE">Dreese lab E2 consumptio<br>
+<input type="checkbox" name="ENERSON CW HEAT FLOW" value="TRUE">ENERSON CW HEAT FLOW<br>
+<input type="checkbox" name="EQUINE CW HEAT FLOW" value="TRUE">EQUINE CW HEAT FLOW<br>
+<input type="checkbox" name="ERCWP CW HEAT FLOW" value="TRUE">ERCWP CW HEAT FLOW<br>
+<input type="checkbox" name="ERCWP E1 CONSUMPTION" value="TRUE">ERCWP E1 CONSUMPTION<br>
+<input type="checkbox" name="ERCWP E2 CONSUMPTION" value="TRUE">ERCWP E2 CONSUMPTION<br>
+<input type="checkbox" name="ERCWP E3 CONSUMPTION" value="TRUE">ERCWP E3 CONSUMPTION<br>
+<input type="checkbox" name="ERCWP E4 CONSUMPTION" value="TRUE">ERCWP E4 CONSUMPTION<br>
+<input type="checkbox" name="ERCWP STM HEAT FLOW" value="TRUE">ERCWP STM HEAT FLOW<br>
+<input type="checkbox" name="EVANS LAB CW HEAT FLOW" value="TRUE">EVANS LAB CW HEAT FLOW<br>
+<input type="checkbox" name="EVANS LAB E02" value="TRUE">EVANS LAB E02<br>
+<input type="checkbox" name="EVANS LAB E03" value="TRUE">EVANS LAB E03<br>
+<input type="checkbox" name="EVANS LAB E04" value="TRUE">EVANS LAB E04<br>
+<input type="checkbox" name="EVANS LAB ST HEAT FLOW" value="TRUE">EVANS LAB ST HEAT FLOW<br>
+<input type="checkbox" name="FISHER CW HEAT FLOW" value="TRUE">FISHER CW HEAT FLOW<br>
+<input type="checkbox" name="FISHER HALL ELEC CONS" value="TRUE">FISHER HALL ELEC CONS<br>
+<input type="checkbox" name="FRY STM HEAT FLOW" value="TRUE">FRY STM HEAT FLOW<br>
+<input type="checkbox" name="GOSS BYPASS CW HEAT FLOW" value="TRUE">GOSS BYPASS CW HEAT FLOW<br>
+<input type="checkbox" name="GOSS CHILLER ELEC METER" value="TRUE">GOSS CHILLER ELEC METER<br>
+<input type="checkbox" name="GOSS LAB E01" value="TRUE">GOSS LAB E01<br>
+<input type="checkbox" name="HAGERTY HALL EO1" value="TRUE">HAGERTY HALL EO1<br>
+<input type="checkbox" name="HAGERTY HALL ST HT FLOW" value="TRUE">HAGERTY HALL ST HT FLOW<br>
+<input type="checkbox" name="HALE HALL ST HEAT FLOW" value="TRUE">HALE HALL ST HEAT FLOW<br>
+<input type="checkbox" name="HALE STEAM HEAT FLOW" value="TRUE">HALE STEAM HEAT FLOW<br>
+<input type="checkbox" name="HAMILTON STEAM HEAT FLOW" value="TRUE">HAMILTON STEAM HEAT FLOW<br>
+<input type="checkbox" name="HITCHCOCK CW HEAT FLOW" value="TRUE">HITCHCOCK CW HEAT FLOW<br>
+<input type="checkbox" name="HITCHCOCK HALL E01" value="TRUE">HITCHCOCK HALL E01<br>
+<input type="checkbox" name="HITCHCOCK HALL ST HT FLO" value="TRUE">HITCHCOCK HALL ST HT FLO<br>
+<input type="checkbox" name="HOPKINS HALL ELEC E01" value="TRUE">HOPKINS HALL ELEC E01<br>
+<input type="checkbox" name="HOPKINS HALL ELEC E02" value="TRUE">HOPKINS HALL ELEC E02<br>
+<input type="checkbox" name="HOPKINS STM HEAT FLOW" value="TRUE">HOPKINS STM HEAT FLOW<br>
+<input type="checkbox" name="HOUSTON ELEC CONS" value="TRUE">HOUSTON ELEC CONS<br>
+<input type="checkbox" name="HOUSTON HW HEAT FLOW" value="TRUE">HOUSTON HW HEAT FLOW<br>
+<input type="checkbox" name="Hale Elec Consumption" value="TRUE">Hale Elec Consumption<br>
+<input type="checkbox" name="ICE RINK STM HEAT FLOW" value="TRUE">ICE RINK STM HEAT FLOW<br>
+<input type="checkbox" name="INDEPEND CW HEAT FLOW" value="TRUE">INDEPEND CW HEAT FLOW<br>
+<input type="checkbox" name="INDEPENDENCE HALL E01" value="TRUE">INDEPENDENCE HALL E01<br>
+<input type="checkbox" name="JENNINGS ELEC 1" value="TRUE">JENNINGS ELEC 1<br>
+<input type="checkbox" name="JENNINGS STM HEAT FLOW" value="TRUE">JENNINGS STM HEAT FLOW<br>
+<input type="checkbox" name="JOURNALISM BUILDING E03" value="TRUE">JOURNALISM BUILDING E03<br>
+<input type="checkbox" name="JOURNALISM CW HEAT FLOW" value="TRUE">JOURNALISM CW HEAT FLOW<br>
+<input type="checkbox" name="KENNEDY STM HEAT FLOW" value="TRUE">KENNEDY STM HEAT FLOW<br>
+<input type="checkbox" name="KNOWLTON CW HEAT FLOW" value="TRUE">KNOWLTON CW HEAT FLOW<br>
+<input type="checkbox" name="KNOWLTON HALL E01" value="TRUE">KNOWLTON HALL E01<br>
+<input type="checkbox" name="KNOWTON STM HEAT FLOW" value="TRUE">KNOWTON STM HEAT FLOW<br>
+<input type="checkbox" name="KOTTMAN HALL E01" value="TRUE">KOTTMAN HALL E01<br>
+<input type="checkbox" name="KOTTMAN HALL E02" value="TRUE">KOTTMAN HALL E02<br>
+<input type="checkbox" name="KOTTMAN HALL E03" value="TRUE">KOTTMAN HALL E03<br>
+<input type="checkbox" name="KOTTMAN STM HEAT FLOW" value="TRUE">KOTTMAN STM HEAT FLOW<br>
+<input type="checkbox" name="Kennedy Elec Consumption" value="TRUE">Kennedy Elec Consumption<br>
+<input type="checkbox" name="LAZENBY CW HEAT FLOW" value="TRUE">LAZENBY CW HEAT FLOW<br>
+<input type="checkbox" name="LAZENBY HALL E01" value="TRUE">LAZENBY HALL E01<br>
+<input type="checkbox" name="MASON CW HEAT FLOW" value="TRUE">MASON CW HEAT FLOW<br>
+<input type="checkbox" name="MASON HALL ELEC CONS" value="TRUE">MASON HALL ELEC CONS<br>
+<input type="checkbox" name="MASON STM HEAT FLOW" value="TRUE">MASON STM HEAT FLOW<br>
+<input type="checkbox" name="MATH BLD HW HEAT FLOW" value="TRUE">MATH BLD HW HEAT FLOW<br>
+<input type="checkbox" name="MATH BLDG CW HEAT FLOW" value="TRUE">MATH BLDG CW HEAT FLOW<br>
+<input type="checkbox" name="MATH BLDG ELEC 1" value="TRUE">MATH BLDG ELEC 1<br>
+<input type="checkbox" name="MATH BLDG ELEC 2" value="TRUE">MATH BLDG ELEC 2<br>
+<input type="checkbox" name="MATH TOWER ELEC 1" value="TRUE">MATH TOWER ELEC 1<br>
+<input type="checkbox" name="MATH TOWER ELEC 2" value="TRUE">MATH TOWER ELEC 2<br>
+<input type="checkbox" name="MATH TWR CW HEAT FLOW" value="TRUE">MATH TWR CW HEAT FLOW<br>
+<input type="checkbox" name="MATH TWR HW HEAT FLOW" value="TRUE">MATH TWR HW HEAT FLOW<br>
+<input type="checkbox" name="MCCORKLE CP HW HEAT FLOW" value="TRUE">MCCORKLE CP HW HEAT FLOW<br>
+<input type="checkbox" name="MCCORKLE DP HW HEAT FLOW" value="TRUE">MCCORKLE DP HW HEAT FLOW<br>
+<input type="checkbox" name="MCCRACKEN CW HEAT FLOW" value="TRUE">MCCRACKEN CW HEAT FLOW<br>
+<input type="checkbox" name="MCCRACKEN CW PUMP 4" value="TRUE">MCCRACKEN CW PUMP 4<br>
+<input type="checkbox" name="MCCRACKEN ION 401" value="TRUE">MCCRACKEN ION 401<br>
+<input type="checkbox" name="MCCRACKEN ION 604" value="TRUE">MCCRACKEN ION 604<br>
+<input type="checkbox" name="MCCRACKEN RM 325 CLG TWR" value="TRUE">MCCRACKEN RM 325 CLG TWR<br>
+<input type="checkbox" name="MCCRACKEN ST 1 HEAT FLOW" value="TRUE">MCCRACKEN ST 1 HEAT FLOW<br>
+<input type="checkbox" name="MCCRACKEN ST 2 HEAT FLOW" value="TRUE">MCCRACKEN ST 2 HEAT FLOW<br>
+<input type="checkbox" name="MCCRACKEN ST 3 HEAT FLOW" value="TRUE">MCCRACKEN ST 3 HEAT FLOW<br>
+<input type="checkbox" name="MCCRACKEN SUB 3" value="TRUE">MCCRACKEN SUB 3<br>
+<input type="checkbox" name="MCCRACKEN SUB 4" value="TRUE">MCCRACKEN SUB 4<br>
+<input type="checkbox" name="MCCRACKEN SUB 5" value="TRUE">MCCRACKEN SUB 5<br>
+<input type="checkbox" name="MCCRACKEN TW PUMP 5" value="TRUE">MCCRACKEN TW PUMP 5<br>
+<input type="checkbox" name="MCPHERSON CW HEAT FLOW" value="TRUE">MCPHERSON CW HEAT FLOW<br>
+<input type="checkbox" name="MCPHERSON ELEC CONS 1" value="TRUE">MCPHERSON ELEC CONS 1<br>
+<input type="checkbox" name="MCPHERSON ELEC CONS 2" value="TRUE">MCPHERSON ELEC CONS 2<br>
+<input type="checkbox" name="MCPHERSON ST HEAT FLOW" value="TRUE">MCPHERSON ST HEAT FLOW<br>
+<input type="checkbox" name="MENDENAHALL ST HEAT FLOW" value="TRUE">MENDENAHALL ST HEAT FLOW<br>
+<input type="checkbox" name="MERSHON AUDITORIUM E03" value="TRUE">MERSHON AUDITORIUM E03<br>
+<input type="checkbox" name="MERSHON AUDITORIUM E04" value="TRUE">MERSHON AUDITORIUM E04<br>
+<input type="checkbox" name="MERSHON STM HEAT FLOW" value="TRUE">MERSHON STM HEAT FLOW<br>
+<input type="checkbox" name="MORRILL KIT.STM.HEAT FLO" value="TRUE">MORRILL KIT.STM.HEAT FLO<br>
+<input type="checkbox" name="MORRILL STM HEAT FLOW" value="TRUE">MORRILL STM HEAT FLOW<br>
+<input type="checkbox" name="Mendenhall elec consum" value="TRUE">Mendenhall elec consum<br>
+<input type="checkbox" name="N. REC ELEC CONS" value="TRUE">N. REC ELEC CONS<br>
+<input type="checkbox" name="N. REC HW HEAT FLOW" value="TRUE">N. REC HW HEAT FLOW<br>
+<input type="checkbox" name="NEWMAN CW HEAT FLOW" value="TRUE">NEWMAN CW HEAT FLOW<br>
+<input type="checkbox" name="NEWMAN WOLF ST HEAT FLOW" value="TRUE">NEWMAN WOLF ST HEAT FLOW<br>
+<input type="checkbox" name="NEWMAN WOLFROM E03" value="TRUE">NEWMAN WOLFROM E03<br>
+<input type="checkbox" name="NEWMAN WOLFROM E04" value="TRUE">NEWMAN WOLFROM E04<br>
+<input type="checkbox" name="NEWTON ELEC 1" value="TRUE">NEWTON ELEC 1<br>
+<input type="checkbox" name="NEWTON STM HEAT FLOW" value="TRUE">NEWTON STM HEAT FLOW<br>
+<input type="checkbox" name="NORTH REC CW HEAT FLOW" value="TRUE">NORTH REC CW HEAT FLOW<br>
+<input type="checkbox" name="NOSKER CW HEAT FLOW" value="TRUE">NOSKER CW HEAT FLOW<br>
+<input type="checkbox" name="NOSKER ELEC CONS" value="TRUE">NOSKER ELEC CONS<br>
+<input type="checkbox" name="NOSKER HHW HEAT FLOW" value="TRUE">NOSKER HHW HEAT FLOW<br>
+<input type="checkbox" name="OHIO STAD. STM HEAT FLOW" value="TRUE">OHIO STAD. STM HEAT FLOW<br>
+<input type="checkbox" name="OHIO UNION ELEC.CONSUMPT" value="TRUE">OHIO UNION ELEC.CONSUMPT<br>
+<input type="checkbox" name="OHIO UNION HEAT FLOW" value="TRUE">OHIO UNION HEAT FLOW<br>
+<input type="checkbox" name="ORTON HALL ELEC E01" value="TRUE">ORTON HALL ELEC E01<br>
+<input type="checkbox" name="ORTON HALL HW HEAT FLOW" value="TRUE">ORTON HALL HW HEAT FLOW<br>
+<input type="checkbox" name="OXLEY STM HEAT FLOW" value="TRUE">OXLEY STM HEAT FLOW<br>
+<input type="checkbox" name="Oxley Electric Meter" value="TRUE">Oxley Electric Meter<br>
+<input type="checkbox" name="P-S Electrical Consum 2" value="TRUE">P-S Electrical Consum 2<br>
+<input type="checkbox" name="P-S Electrical Consum 4" value="TRUE">P-S Electrical Consum 4<br>
+<input type="checkbox" name="P-S Electrical Consum 5" value="TRUE">P-S Electrical Consum 5<br>
+<input type="checkbox" name="P-S Electrical Cousum 3" value="TRUE">P-S Electrical Cousum 3<br>
+<input type="checkbox" name="P-S PARK CW HEAT FLOW" value="TRUE">P-S PARK CW HEAT FLOW<br>
+<input type="checkbox" name="P-S STEAM HEAT FLOW" value="TRUE">P-S STEAM HEAT FLOW<br>
+<input type="checkbox" name="P-S STRADLEY CW HEAT FLO" value="TRUE">P-S STRADLEY CW HEAT FLO<br>
+<input type="checkbox" name="PAES CW HEAT FLOW" value="TRUE">PAES CW HEAT FLOW<br>
+<input type="checkbox" name="PAES E03" value="TRUE">PAES E03<br>
+<input type="checkbox" name="PAES E08" value="TRUE">PAES E08<br>
+<input type="checkbox" name="PAES ST HEAT FLOW" value="TRUE">PAES ST HEAT FLOW<br>
+<input type="checkbox" name="PAGE HALL E01" value="TRUE">PAGE HALL E01<br>
+<input type="checkbox" name="PAGE STM HEAT FLOW" value="TRUE">PAGE STM HEAT FLOW<br>
+<input type="checkbox" name="PARK STM HEAT FLOW" value="TRUE">PARK STM HEAT FLOW<br>
+<input type="checkbox" name="PARK STRADLEY ELECTRIC 1" value="TRUE">PARK STRADLEY ELECTRIC 1<br>
+<input type="checkbox" name="PARKS HALL E01" value="TRUE">PARKS HALL E01<br>
+<input type="checkbox" name="PARKS HALL E02" value="TRUE">PARKS HALL E02<br>
+<input type="checkbox" name="PARKS HALL E03" value="TRUE">PARKS HALL E03<br>
+<input type="checkbox" name="POMERENE HALL E01" value="TRUE">POMERENE HALL E01<br>
+<input type="checkbox" name="POMERENE HALL ST HT FLOW" value="TRUE">POMERENE HALL ST HT FLOW<br>
+<input type="checkbox" name="PRB CW HEAT FLOW" value="TRUE">PRB CW HEAT FLOW<br>
+<input type="checkbox" name="PRB Electric Meter 1" value="TRUE">PRB Electric Meter 1<br>
+<input type="checkbox" name="PRB Electric Meter 2 Con" value="TRUE">PRB Electric Meter 2 Con<br>
+<input type="checkbox" name="PRB STM HEAT FLOW" value="TRUE">PRB STM HEAT FLOW<br>
+<input type="checkbox" name="PRIOR STM HEAT FLOW" value="TRUE">PRIOR STM HEAT FLOW<br>
+<input type="checkbox" name="PSYCH CW HEAT FLOW" value="TRUE">PSYCH CW HEAT FLOW<br>
+<input type="checkbox" name="PSYCH STM HEAT FLOW" value="TRUE">PSYCH STM HEAT FLOW<br>
+<input type="checkbox" name="PSYCHOLOGY ELEC CONS 1" value="TRUE">PSYCHOLOGY ELEC CONS 1<br>
+<input type="checkbox" name="PSYCHOLOGY ELEC CONS 2" value="TRUE">PSYCHOLOGY ELEC CONS 2<br>
+<input type="checkbox" name="RANEY CW HEAT FLOW" value="TRUE">RANEY CW HEAT FLOW<br>
+<input type="checkbox" name="RANEY ELEC CONS" value="TRUE">RANEY ELEC CONS<br>
+<input type="checkbox" name="RANEY HW HEAT FLOW" value="TRUE">RANEY HW HEAT FLOW<br>
+<input type="checkbox" name="RHODES CW HEAT FLOW" value="TRUE">RHODES CW HEAT FLOW<br>
+<input type="checkbox" name="RIFFE BUILDING E01" value="TRUE">RIFFE BUILDING E01<br>
+<input type="checkbox" name="RIFFE BUILDING E02" value="TRUE">RIFFE BUILDING E02<br>
+<input type="checkbox" name="RIFFE ST HEAT FLOW" value="TRUE">RIFFE ST HEAT FLOW<br>
+<input type="checkbox" name="ROSS CW HEAT FLOW" value="TRUE">ROSS CW HEAT FLOW<br>
+<input type="checkbox" name="RPAC CALC CW HEAT FLOW" value="TRUE">RPAC CALC CW HEAT FLOW<br>
+<input type="checkbox" name="RPAC M2 CW HEAT FLOW" value="TRUE">RPAC M2 CW HEAT FLOW<br>
+<input type="checkbox" name="RPAC M4 HW HEAT FLOW" value="TRUE">RPAC M4 HW HEAT FLOW<br>
+<input type="checkbox" name="RPAC M5 HW HEAT FLOW" value="TRUE">RPAC M5 HW HEAT FLOW<br>
+<input type="checkbox" name="RPAC M6 HW HEAT FLOW" value="TRUE">RPAC M6 HW HEAT FLOW<br>
+<input type="checkbox" name="RPAC MSB1" value="TRUE">RPAC MSB1<br>
+<input type="checkbox" name="RPAC MSB2" value="TRUE">RPAC MSB2<br>
+<input type="checkbox" name="RPAC STM HEAT FLOW" value="TRUE">RPAC STM HEAT FLOW<br>
+<input type="checkbox" name="RPAC Solar panels tot re" value="TRUE">RPAC Solar panels tot re<br>
+<input type="checkbox" name="SAS CW HEAT FLOW" value="TRUE">SAS CW HEAT FLOW<br>
+<input type="checkbox" name="SAS STM HEAT FLOW" value="TRUE">SAS STM HEAT FLOW<br>
+<input type="checkbox" name="SCCCP CW HEAT FLOW" value="TRUE">SCCCP CW HEAT FLOW<br>
+<input type="checkbox" name="SCCCP ION 100C" value="TRUE">SCCCP ION 100C<br>
+<input type="checkbox" name="SCCCP ION 200C" value="TRUE">SCCCP ION 200C<br>
+<input type="checkbox" name="SCCCP ION 205C" value="TRUE">SCCCP ION 205C<br>
+<input type="checkbox" name="SCCCP ION 206C" value="TRUE">SCCCP ION 206C<br>
+<input type="checkbox" name="SCCCP ION 300C" value="TRUE">SCCCP ION 300C<br>
+<input type="checkbox" name="SCHOENBAUM CW HEAT FLOW" value="TRUE">SCHOENBAUM CW HEAT FLOW<br>
+<input type="checkbox" name="SCHOENBAUM HALL ELEC 1" value="TRUE">SCHOENBAUM HALL ELEC 1<br>
+<input type="checkbox" name="SCHOENBAUM STM HEAT FLOW" value="TRUE">SCHOENBAUM STM HEAT FLOW<br>
+<input type="checkbox" name="SCHOTT E1 MS1 E07" value="TRUE">SCHOTT E1 MS1 E07<br>
+<input type="checkbox" name="SCHOTT E2 MS2 E01" value="TRUE">SCHOTT E2 MS2 E01<br>
+<input type="checkbox" name="SCHOTT E3 US3 E03" value="TRUE">SCHOTT E3 US3 E03<br>
+<input type="checkbox" name="SCHOTT E4 US4 E02" value="TRUE">SCHOTT E4 US4 E02<br>
+<input type="checkbox" name="SCHOTT E6 US1 E06" value="TRUE">SCHOTT E6 US1 E06<br>
+<input type="checkbox" name="SCHOTT E7 US5 E04" value="TRUE">SCHOTT E7 US5 E04<br>
+<input type="checkbox" name="SCHOTT E8 US6 E05" value="TRUE">SCHOTT E8 US6 E05<br>
+<input type="checkbox" name="SCHOTT STM HEAT FLOW" value="TRUE">SCHOTT STM HEAT FLOW<br>
+<input type="checkbox" name="SCOTT CW HEAT FLOW" value="TRUE">SCOTT CW HEAT FLOW<br>
+<input type="checkbox" name="SCOTT HHW HEAT FLOW" value="TRUE">SCOTT HHW HEAT FLOW<br>
+<input type="checkbox" name="SCOTT HOUSE ELEC 1 CONS" value="TRUE">SCOTT HOUSE ELEC 1 CONS<br>
+<input type="checkbox" name="SCOTT HOUSE ELEC 2 CONS" value="TRUE">SCOTT HOUSE ELEC 2 CONS<br>
+<input type="checkbox" name="SCOTT LAB STM HEAT FLOW" value="TRUE">SCOTT LAB STM HEAT FLOW<br>
+<input type="checkbox" name="SEL CW HEAT FLOW" value="TRUE">SEL CW HEAT FLOW<br>
+<input type="checkbox" name="SEL STM HEAT FLOW" value="TRUE">SEL STM HEAT FLOW<br>
+<input type="checkbox" name="SIEBERT ELEC CONS" value="TRUE">SIEBERT ELEC CONS<br>
+<input type="checkbox" name="SIEBERT HW HEAT FLOW" value="TRUE">SIEBERT HW HEAT FLOW<br>
+<input type="checkbox" name="SIEBERT STEAM HEAT FLW" value="TRUE">SIEBERT STEAM HEAT FLW<br>
+<input type="checkbox" name="SISSON CW HEAT FLOW" value="TRUE">SISSON CW HEAT FLOW<br>
+<input type="checkbox" name="SISSON HALL E02" value="TRUE">SISSON HALL E02<br>
+<input type="checkbox" name="SMITH LAB CW HEAT FLOW" value="TRUE">SMITH LAB CW HEAT FLOW<br>
+<input type="checkbox" name="SMITH LAB E01" value="TRUE">SMITH LAB E01<br>
+<input type="checkbox" name="SMITH LAB E02" value="TRUE">SMITH LAB E02<br>
+<input type="checkbox" name="SMITH LAB E04" value="TRUE">SMITH LAB E04<br>
+<input type="checkbox" name="SMITH LAB ST HEAT FLOW" value="TRUE">SMITH LAB ST HEAT FLOW<br>
+<input type="checkbox" name="SMITH STEEB CW HEAT FLOW" value="TRUE">SMITH STEEB CW HEAT FLOW<br>
+<input type="checkbox" name="SMITH SUB CW HEAT FLOW" value="TRUE">SMITH SUB CW HEAT FLOW<br>
+<input type="checkbox" name="SMITH-STEEB ELEC CONS" value="TRUE">SMITH-STEEB ELEC CONS<br>
+<input type="checkbox" name="SMITH-STEEB HW HEAT FLOW" value="TRUE">SMITH-STEEB HW HEAT FLOW<br>
+<input type="checkbox" name="ST.JOHN STM HEAT FLOW" value="TRUE">ST.JOHN STM HEAT FLOW<br>
+<input type="checkbox" name="STAR/LOVE ST HEAT FLOW" value="TRUE">STAR/LOVE ST HEAT FLOW<br>
+<input type="checkbox" name="STARLING LOVING HALL E01" value="TRUE">STARLING LOVING HALL E01<br>
+<input type="checkbox" name="STARLING LOVING HALL E02" value="TRUE">STARLING LOVING HALL E02<br>
+<input type="checkbox" name="STARLING LOVING HALL E03" value="TRUE">STARLING LOVING HALL E03<br>
+<input type="checkbox" name="SULLIVANT ELEC 1" value="TRUE">SULLIVANT ELEC 1<br>
+<input type="checkbox" name="SULLIVANT STM HEAT FLOW" value="TRUE">SULLIVANT STM HEAT FLOW<br>
+<input type="checkbox" name="Scott Lab Elec 1 Consum" value="TRUE">Scott Lab Elec 1 Consum<br>
+<input type="checkbox" name="Scott Lab Elec 2 Consum" value="TRUE">Scott Lab Elec 2 Consum<br>
+<input type="checkbox" name="Smith Sub Meter #1 kWh" value="TRUE">Smith Sub Meter #1 kWh<br>
+<input type="checkbox" name="Smith Sub Meter #2 kWh" value="TRUE">Smith Sub Meter #2 kWh<br>
+<input type="checkbox" name="THOMPSON CW HEAT FLOW" value="TRUE">THOMPSON CW HEAT FLOW<br>
+<input type="checkbox" name="TORRES CW HEAT FLOW" value="TRUE">TORRES CW HEAT FLOW<br>
+<input type="checkbox" name="TORRES ELEC CONS" value="TRUE">TORRES ELEC CONS<br>
+<input type="checkbox" name="TORRES HW HEAT FLOW" value="TRUE">TORRES HW HEAT FLOW<br>
+<input type="checkbox" name="TOWNSHEND CW HEAT FLOW" value="TRUE">TOWNSHEND CW HEAT FLOW<br>
+<input type="checkbox" name="TOWNSHEND HALL E01" value="TRUE">TOWNSHEND HALL E01<br>
+<input type="checkbox" name="TOWNSHEND STM HEAT FLOW" value="TRUE">TOWNSHEND STM HEAT FLOW<br>
+<input type="checkbox" name="TZAGOURNIS STM HEAT FLOW" value="TRUE">TZAGOURNIS STM HEAT FLOW<br>
+<input type="checkbox" name="Thompson Usage E01" value="TRUE">Thompson Usage E01<br>
+<input type="checkbox" name="Thompson Usage E02" value="TRUE">Thompson Usage E02<br>
+<input type="checkbox" name="Tzagournis Elec meter 1" value="TRUE">Tzagournis Elec meter 1<br>
+<input type="checkbox" name="Tzagournis Elec meter 2" value="TRUE">Tzagournis Elec meter 2<br>
+<input type="checkbox" name="U-HALL CW HEAT FLOW" value="TRUE">U-HALL CW HEAT FLOW<br>
+<input type="checkbox" name="UHALL HW HEAT FLOW" value="TRUE">UHALL HW HEAT FLOW<br>
+<input type="checkbox" name="UNIVERSITY HALL E01" value="TRUE">UNIVERSITY HALL E01<br>
+<input type="checkbox" name="VET HOSP CHILLER 1 ELEC" value="TRUE">VET HOSP CHILLER 1 ELEC<br>
+<input type="checkbox" name="VET HOSP CHILLER 2 ELEC" value="TRUE">VET HOSP CHILLER 2 ELEC<br>
+<input type="checkbox" name="VET HOSP CHILLER 3 ELEC" value="TRUE">VET HOSP CHILLER 3 ELEC<br>
+<input type="checkbox" name="VET HOSP CHILLER 4 ELEC" value="TRUE">VET HOSP CHILLER 4 ELEC<br>
+<input type="checkbox" name="VET HOSP CHILLER 5 ELEC" value="TRUE">VET HOSP CHILLER 5 ELEC<br>
+<input type="checkbox" name="VET HOSP CW HEAT FLOW" value="TRUE">VET HOSP CW HEAT FLOW<br>
+<input type="checkbox" name="VET HOSP GEAR E1" value="TRUE">VET HOSP GEAR E1<br>
+<input type="checkbox" name="VET HOSP GEAR E2" value="TRUE">VET HOSP GEAR E2<br>
+<input type="checkbox" name="VET HOSP GEAR E5" value="TRUE">VET HOSP GEAR E5<br>
+<input type="checkbox" name="VET HOSP STM HEAT FLOW" value="TRUE">VET HOSP STM HEAT FLOW<br>
+<input type="checkbox" name="VMA CW HEAT FLOW" value="TRUE">VMA CW HEAT FLOW<br>
+<input type="checkbox" name="Vet Hosp Gear E3 consump" value="TRUE">Vet Hosp Gear E3 consump<br>
+<input type="checkbox" name="Vet Hosp Gear E4 Consump" value="TRUE">Vet Hosp Gear E4 Consump<br>
+<input type="checkbox" name="WATER TRTMNT ST HEAT FLO" value="TRUE">WATER TRTMNT ST HEAT FLO<br>
+<input type="checkbox" name="WATTS HALL E02" value="TRUE">WATTS HALL E02<br>
+<input type="checkbox" name="WATTS ST HEAT FLOW" value="TRUE">WATTS ST HEAT FLOW<br>
+<input type="checkbox" name="WEIGEL HALL E01" value="TRUE">WEIGEL HALL E01<br>
+<input type="checkbox" name="WEIGEL HALL HW HEAT FLOW" value="TRUE">WEIGEL HALL HW HEAT FLOW<br>
+<input type="checkbox" name="WEXNER CENTER E01" value="TRUE">WEXNER CENTER E01<br>
+<input type="checkbox" name="WEXNER CENTER E02" value="TRUE">WEXNER CENTER E02<br>
+<input type="checkbox" name="WEXNER CENTER E03" value="TRUE">WEXNER CENTER E03<br>
+<input type="checkbox" name="WEXNER CNTR. ST HEAT FLO" value="TRUE">WEXNER CNTR. ST HEAT FLO<br>
+<input type="checkbox" name="Water Plant N. Electric" value="TRUE">Water Plant N. Electric<br>
+<input type="checkbox" name="Water Plant S. Electric" value="TRUE">Water Plant S. Electric<br>
