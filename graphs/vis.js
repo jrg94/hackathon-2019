@@ -27,9 +27,24 @@ function plotBar(datasets) {
 	var h = 400
 	var padding = 40
 
+	const locationTypes = [...new Set(datasets["Config"].map((d) => d.LocationType).filter(Boolean))]
+	console.log(locationTypes)
+
 	var xScale = d3.scaleOrdinal()
-		.domain([...new Set(datasets["Config"].map((d) => d.LocationType))])
+		.domain(locationTypes)
 		.range([padding, w - padding * 2])
+
+	var xAxis = d3.axisBottom(xScale)
+	
+	var svg = d3.select("body")
+		.append("svg")
+		.attr("width", w)
+		.attr("height", h)
+
+	svg.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + (h - padding) + ")")
+		.call(xAxis)
 }
 
 function plotLine(datasets){
