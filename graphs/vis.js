@@ -1,4 +1,4 @@
-var includedBuildings = ["Oxley Electric Meter", "WATER TRTMNT ST HEAT FLO"]
+var includedBuildings = ["SCOTT CW HEAT FLOW", "N. REC HW HEAT FLOW", "NORTH REC CW HEAT FLOW", "NOSKER HHW HEAT FLOW", "NOSKER CW HEAT FLOW"]
 var files = ["../data/HackathonDataDaily.csv", "../data/HackathonConfig.csv"]
 var datasets = {}
 
@@ -14,6 +14,7 @@ function loadThenPlot(dataset) {
 	}
 	if (Object.keys(datasets).length == files.length) {
 		plotLine(datasets)
+		plotBar(datasets)
 	}
 }
 
@@ -21,16 +22,116 @@ function loadBuildings(config) {
 	includedBuildings = config.slice(10, 15).map((d) => d.BuildingID)
 }
 
+function numberOfValues(data, key, value) {
+	return data.filter((d) => d[key] == value).length
+}
+
+function sortByMostCommonLocationType(locationTypes, config) {
+	return locationTypes.sort(
+		(a, b) => numberOfValues(config, "LocationType", b) - numberOfValues(config, "LocationType", a)
+	)
+}
+
+function plotBar(datasets) {
+	var w = 600
+	var h = 400
+	var padding = 40
+
+	const data = datasets["Data"]
+	const config = datasets["Config"]
+
+	const locationTypes = sortByMostCommonLocationType([
+		...new Set(config
+			.map((d) => d.LocationType)
+			.filter(Boolean))
+	], config).slice(0, 5)
+
+	squareFeet = locationTypes.map(
+		(loc) => config.filter(
+			(d) => d.LocationType == loc)
+				.reduce((a, b) => a + Number(b.GrossSquareFeet), 0))
+	
+	
+	console.log(squareFeet)
+
+	var xScale = d3.scaleBand()
+		.domain(locationTypes)
+		.rangeRound([padding, w - padding * 2])
+      	.padding(0.1)
+
+	var yScale = d3.scaleLinear()
+		.domain([0, d3.max(squareFeet)])
+		.range([h - padding, padding])
+
+	var xAxis = d3.axisBottom(xScale)
+
+	var yAxis = d3.axisLeft(yScale).ticks(5)
+	
+	var svg = d3.select("body")
+		.append("svg")
+		.attr("width", w)
+		.attr("height", h)
+
+	svg.append("g")
+		.attr("class", "x axis")
+		.attr("transform", "translate(0," + (h - padding) + ")")
+		.call(xAxis)
+		
+	svg.append("text")             
+		.attr("transform",
+			  "translate(" + (w/2) + " ," + 
+							 (h) + ")")
+		.style("text-anchor", "middle")
+		.text("Location Type");
+		
+	svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0)
+      .attr("x",0 - (h / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Gross Square Footage"); 
+		
+	svg.append("g")
+		.attr("class", "y axis")
+		.attr("transform", "translate(" + padding + ", 0)")
+		.call(yAxis)
+		.selectAll("text")
+		.style("text-anchor", "middle")
+		.attr("dx", "1em")
+		.attr("dy", "-1em")
+		.attr("transform", "rotate(-90)")
+
+	svg.selectAll(".bar")
+		.data(locationTypes)
+		.enter().append("rect")
+		.attr("class", "bar")
+		.attr("x", (d) => xScale(d))
+		.attr("y", (d, i) => yScale(Number(squareFeet[i])))
+		.attr("width", xScale.bandwidth())
+		.attr("height", (d, i) => h - yScale(Number(squareFeet[i])) - padding)
+		.attr("fill", "blue")
+		.on("click", function (d, i) { 
+			d3.selectAll(".bar").attr("fill", "blue")
+			d3.select(this).attr("fill", "purple") 
+			includedBuildings = config.filter((row) => row.LocationType == d).slice(0, 5).map((d) => d.BuildingID)
+			console.log(includedBuildings)
+			plotLine(datasets)
+		})
+}
+
 function plotLine(datasets){
 
 	console.log(datasets)
+	console.log(includedBuildings)
 	
 	config = datasets["Config"]
 	data = datasets["Data"]
-	loadBuildings(config)
 
 	data = isolateBuildings(data)
 	data = clean(data)
+
+	console.log(data)
 		
 	var w = 600
 	var h = 400
@@ -121,7 +222,7 @@ function plotLine(datasets){
 	var legend = d3.select("body")
 		.append("svg")
 		.attr("width", 400)
-		.attr("height", h)
+		.attr("height", 15 + 25 * includedBuildings.length)
 	
 	legend.selectAll("mydots")
 	  .data(includedBuildings)
@@ -148,7 +249,7 @@ function plotLine(datasets){
 	background = legend.append("rect")
 		.attr("fill", "white")
 		.attr("stroke", "black")
-		.attr("height", legend.node().getBBox().height + 20)
+		.attr("height", 15 + 25 * includedBuildings.length)
 		.attr("width", legend.node().getBBox().width + 20)
 		
 	background.lower();
