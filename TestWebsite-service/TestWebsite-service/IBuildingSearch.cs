@@ -11,8 +11,9 @@ namespace TestWebsite_service
     [ServiceContract]
     public interface IBuildingSearch
     {
+
         [OperationContract]
-        String[] buildingConstructor();
+        String[] getBuildings(String userInput);
 
     }
 }
