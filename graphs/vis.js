@@ -1,4 +1,4 @@
-var includedBuildings = ["Oxley Electric Meter", "WATER TRTMNT ST HEAT FLO"]
+var includedBuildings = ["SCOTT CW HEAT FLOW", "N. REC HW HEAT FLOW", "NORTH REC CW HEAT FLOW", "NOSKER HHW HEAT FLOW", "NOSKER CW HEAT FLOW"]
 var files = ["../data/HackathonDataDaily.csv", "../data/HackathonConfig.csv"]
 var datasets = {}
 
@@ -114,19 +114,24 @@ function plotBar(datasets) {
 		.on("click", function (d, i) { 
 			d3.selectAll(".bar").attr("fill", "blue")
 			d3.select(this).attr("fill", "purple") 
+			includedBuildings = config.filter((row) => row.LocationType == d).slice(0, 5).map((d) => d.BuildingID)
+			console.log(includedBuildings)
+			plotLine(datasets)
 		})
 }
 
 function plotLine(datasets){
 
 	console.log(datasets)
+	console.log(includedBuildings)
 	
 	config = datasets["Config"]
 	data = datasets["Data"]
-	loadBuildings(config)
 
 	data = isolateBuildings(data)
 	data = clean(data)
+
+	console.log(data)
 		
 	var w = 600
 	var h = 400
