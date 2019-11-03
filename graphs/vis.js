@@ -48,9 +48,15 @@ function plotBar(datasets) {
 
 	// TODO: compute average of each locationType from data using meterID
 	records = locationTypes.map((loc) => config.filter((d) => d.LocationType == loc))
+	totals = records.map(
+		(record) => record.map(
+			(d) => data.filter(
+				(row) => row.BuildingID == d.BuildingID
+			)
+		)
+	)
 
-	console.log(locationTypes)
-	console.log(records)
+	console.log(totals)
 
 	var xScale = d3.scalePoint()
 		.domain(locationTypes)
