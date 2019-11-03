@@ -13,9 +13,12 @@ function loadThenPlot(dataset) {
 		datasets["Data"] = dataset
 	}
 	if (Object.keys(datasets).length == files.length) {
-		console.log("adsgfdajh")
 		plotLine(datasets)
 	}
+}
+
+function loadBuildings(config) {
+	includedBuildings = config.slice(0, 10).map((d) => d.BuildingID)
 }
 
 function plotLine(datasets){
@@ -24,6 +27,7 @@ function plotLine(datasets){
 	
 	config = datasets["Config"]
 	data = datasets["Data"]
+	loadBuildings(config)
 
 	data = isolateBuildings(data)
 	data = clean(data)
