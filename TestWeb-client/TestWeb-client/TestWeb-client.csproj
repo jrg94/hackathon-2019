@@ -203,6 +203,7 @@
     <Content Include="Dash.Master" />
     <Content Include="HAck.txt" />
     <Content Include="csv\HackathonDataDaily.csv" />
+    <Content Include="csv\HackathonConfig.csv" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Index.html" />
     <Content Include="js\chart-area-demo.js" />
