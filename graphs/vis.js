@@ -46,27 +46,22 @@ function plotBar(datasets) {
 			.filter(Boolean))
 	], config).slice(0, 5)
 
-	// TODO: compute average of each locationType from data using meterID
-	records = locationTypes.map((loc) => config.filter((d) => d.LocationType == loc))
-	totals = records.map(
-		(record) => record.map(
-			(d) => data.filter(
-				(row) => row.BuildingID == d.BuildingID
-			)
-		)
-	)
-
-	console.log(totals)
+	squareFeet = locationTypes.map(
+		(loc) => config.filter(
+			(d) => d.LocationType == loc)
+				.reduce((a, b) => a + Number(b.GrossSquareFeet), 0))
 
 	var xScale = d3.scalePoint()
 		.domain(locationTypes)
 		.range([padding, w - padding * 2])
 
 	var yScale = d3.scaleLinear()
-		.domain([0, d3.max(data, (d) => parseFloat(d.CurrentValue))])
+		.domain([0, d3.max(squareFeet)])
 		.range([h - padding, padding])
 
 	var xAxis = d3.axisBottom(xScale)
+
+	var yAxis = d3.axisLeft(yScale).ticks(5)
 	
 	var svg = d3.select("body")
 		.append("svg")
@@ -77,6 +72,31 @@ function plotBar(datasets) {
 		.attr("class", "x axis")
 		.attr("transform", "translate(0," + (h - padding) + ")")
 		.call(xAxis)
+
+	svg.append("g")
+		.attr("class", "y axis")
+		.attr("transform", "translate(" + padding + ", 0)")
+		.call(yAxis)
+		.selectAll("text")
+		.style("text-anchor", "middle")
+		.attr("dx", "1em")
+		.attr("dy", "-1em")
+		.attr("transform", "rotate(-90)")
+
+	svg.selectAll(".bar")
+		.data(locationTypes)
+		.enter().append("rect")
+		.attr("class", "bar")
+		.attr("x", function (d,i) {
+			return xScale(d);
+		})
+		.attr("y", function (d, i) {
+			return yScale(Number(squareFeet[i]));
+		})
+		.attr("width", d3.max(xScale.range(),function(d){return d}) / (locationTypes.length + 1))
+		.attr("height", function (d, i) {
+			return h - yScale(Number(squareFeet[i]));
+		});
 }
 
 function plotLine(datasets){
