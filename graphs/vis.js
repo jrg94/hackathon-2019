@@ -1,31 +1,54 @@
-d3.csv("../data/HackathonDataDaily.csv").then(plot)
+var includedBuildings = ["Oxley Electric Meter", "WATER TRTMNT ST HEAT FLO"]
+var files = ["../data/HackathonDataDaily.csv", "../data/HackathonConfig.csv"]
+var datasets = {}
 
-includedBuildings = ["Oxley Electric Meter", "WATER TRTMNT ST HEAT FLO"]
+function main() {
+	files.forEach((file) => d3.csv(file).then(loadThenPlot))
+}
 
-function plot(dataset){
+function loadThenPlot(dataset) {
+	if (dataset.columns[0] == "ID") {
+		datasets["Config"] = dataset
+	} else {
+		datasets["Data"] = dataset
+	}
+	if (Object.keys(datasets).length == files.length) {
+		plotLine(datasets)
+	}
+}
+
+function loadBuildings(config) {
+	includedBuildings = config.slice(10, 15).map((d) => d.BuildingID)
+}
+
+function plotLine(datasets){
+
+	console.log(datasets)
 	
-	console.log(dataset)
-	
-	dataset = isolateBuildings(dataset)
-	dataset = clean(dataset)
+	config = datasets["Config"]
+	data = datasets["Data"]
+	loadBuildings(config)
+
+	data = isolateBuildings(data)
+	data = clean(data)
 		
 	var w = 600
 	var h = 400
 	var padding = 40
 	
-	console.log(d3.extent(dataset, (d) => new Date(d.Time)))
-	console.log(d3.extent(dataset, (d) => parseFloat(d.CurrentValue)))
+	console.log(d3.extent(data, (d) => new Date(d.Time)))
+	console.log(d3.extent(data, (d) => parseFloat(d.CurrentValue)))
 	
 	// Scales
 	var xScale = d3.scaleTime()
-		.domain(d3.extent(dataset, (d) => new Date(d.Time)))
+		.domain(d3.extent(data, (d) => new Date(d.Time)))
 		.range([padding, w - padding * 2])
 	
 	var yScale = d3.scaleLinear()
-		.domain([0, d3.max(dataset, (d) => parseFloat(d.CurrentValue))])
+		.domain([0, d3.max(data, (d) => parseFloat(d.CurrentValue))])
 		.range([h - padding, padding])
 		
-	var colorScale = d3.scaleOrdinal(d3.schemeAccent).domain(includedBuildings)
+	var colorScale = d3.scaleOrdinal(d3.schemeDark2).domain(includedBuildings)
 	
 	// Axes
 	var xAxis = d3.axisBottom(xScale).ticks(10)
@@ -39,7 +62,7 @@ function plot(dataset){
 
 	svg.append("g")
 		.selectAll("circle")
-		.data(dataset)
+		.data(data)
 		.enter()
 		.append("circle")
 		.attr("cx", (d) => xScale(new Date(d.Time)))
@@ -117,7 +140,7 @@ function plot(dataset){
 		.attr("x", 40)
 		.attr("y", function(d,i){ return 20 + i*25}) // 100 is where the first dot appears. 25 is the distance between dots
 		.style("fill", function(d){ return colorScale(d)})
-		.text(function(d){ return d})
+		.text((d) => config.filter((row) => row.BuildingID == d)[0].BuildingName)
 		.attr("text-anchor", "left")
 		.style("alignment-baseline", "middle")
 	
@@ -161,3 +184,5 @@ function clean(dataset){
 function sortByCurrentValue(dataset){
 	dataset.sort((b, a) => Number(a.CurrentValue) - Number(b.CurrentValue))
 }
+
+main()
