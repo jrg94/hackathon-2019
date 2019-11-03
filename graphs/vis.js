@@ -106,16 +106,15 @@ function plotBar(datasets) {
 		.data(locationTypes)
 		.enter().append("rect")
 		.attr("class", "bar")
-		.attr("x", function (d,i) {
-			return xScale(d);
-		})
-		.attr("y", function (d, i) {
-			return yScale(Number(squareFeet[i]));
-		})
+		.attr("x", (d) => xScale(d))
+		.attr("y", (d, i) => yScale(Number(squareFeet[i])))
 		.attr("width", xScale.bandwidth())
-		.attr("height", function (d, i) {
-			return h - yScale(Number(squareFeet[i])) - padding;
-		});
+		.attr("height", (d, i) => h - yScale(Number(squareFeet[i])) - padding)
+		.attr("fill", "blue")
+		.on("click", function (d, i) { 
+			d3.selectAll(".bar").attr("fill", "blue")
+			d3.select(this).attr("fill", "purple") 
+		})
 }
 
 function plotLine(datasets){
