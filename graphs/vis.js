@@ -51,9 +51,12 @@ function plotBar(datasets) {
 			(d) => d.LocationType == loc)
 				.reduce((a, b) => a + Number(b.GrossSquareFeet), 0))
 
-	var xScale = d3.scalePoint()
+	console.log(squareFeet)
+
+	var xScale = d3.scaleBand()
 		.domain(locationTypes)
-		.range([padding, w - padding * 2])
+		.rangeRound([padding, w - padding * 2])
+      	.padding(0.1)
 
 	var yScale = d3.scaleLinear()
 		.domain([0, d3.max(squareFeet)])
@@ -93,9 +96,9 @@ function plotBar(datasets) {
 		.attr("y", function (d, i) {
 			return yScale(Number(squareFeet[i]));
 		})
-		.attr("width", d3.max(xScale.range(),function(d){return d}) / (locationTypes.length + 1))
+		.attr("width", xScale.bandwidth())
 		.attr("height", function (d, i) {
-			return h - yScale(Number(squareFeet[i]));
+			return h - yScale(Number(squareFeet[i])) - padding;
 		});
 }
 
