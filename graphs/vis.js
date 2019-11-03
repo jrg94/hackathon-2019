@@ -202,7 +202,7 @@ function plotLine(datasets){
 	var legend = d3.select("body")
 		.append("svg")
 		.attr("width", 400)
-		.attr("height", h)
+		.attr("height", 15 + 25 * includedBuildings.length)
 	
 	legend.selectAll("mydots")
 	  .data(includedBuildings)
@@ -229,7 +229,7 @@ function plotLine(datasets){
 	background = legend.append("rect")
 		.attr("fill", "white")
 		.attr("stroke", "black")
-		.attr("height", legend.node().getBBox().height + 20)
+		.attr("height", 15 + 25 * includedBuildings.length)
 		.attr("width", legend.node().getBBox().width + 20)
 		
 	background.lower();
