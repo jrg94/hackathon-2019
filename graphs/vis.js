@@ -75,7 +75,22 @@ function plotBar(datasets) {
 		.attr("class", "x axis")
 		.attr("transform", "translate(0," + (h - padding) + ")")
 		.call(xAxis)
-
+		
+	svg.append("text")             
+		.attr("transform",
+			  "translate(" + (w/2) + " ," + 
+							 (h) + ")")
+		.style("text-anchor", "middle")
+		.text("Location Type");
+		
+	svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0)
+      .attr("x",0 - (h / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Energy (kWh)"); 
+		
 	svg.append("g")
 		.attr("class", "y axis")
 		.attr("transform", "translate(" + padding + ", 0)")
