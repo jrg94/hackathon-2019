@@ -265,3 +265,6 @@ C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj
 C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.csproj.CopyComplete
 C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.dll
 C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\obj\Debug\TestWeb-client.pdb
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll.config
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\TestWeb-client.dll
+C:\Users\calvi\Documents\GitHub\hackathon-2019\TestWeb-client\TestWeb-client\bin\TestWeb-client.pdb
