@@ -50,7 +50,8 @@ function plotBar(datasets) {
 		(loc) => config.filter(
 			(d) => d.LocationType == loc)
 				.reduce((a, b) => a + Number(b.GrossSquareFeet), 0))
-
+	
+	
 	console.log(squareFeet)
 
 	var xScale = d3.scaleBand()
@@ -89,7 +90,7 @@ function plotBar(datasets) {
       .attr("x",0 - (h / 2))
       .attr("dy", "1em")
       .style("text-anchor", "middle")
-      .text("Energy (kWh)"); 
+      .text("Gross Square Footage"); 
 		
 	svg.append("g")
 		.attr("class", "y axis")
