@@ -18,7 +18,7 @@ function loadThenPlot(dataset) {
 }
 
 function loadBuildings(config) {
-	includedBuildings = config.slice(0, 10).map((d) => d.BuildingID)
+	includedBuildings = config.slice(10, 15).map((d) => d.BuildingID)
 }
 
 function plotLine(datasets){
@@ -48,7 +48,7 @@ function plotLine(datasets){
 		.domain([0, d3.max(data, (d) => parseFloat(d.CurrentValue))])
 		.range([h - padding, padding])
 		
-	var colorScale = d3.scaleOrdinal(d3.schemeAccent).domain(includedBuildings)
+	var colorScale = d3.scaleOrdinal(d3.schemeDark2).domain(includedBuildings)
 	
 	// Axes
 	var xAxis = d3.axisBottom(xScale).ticks(10)
